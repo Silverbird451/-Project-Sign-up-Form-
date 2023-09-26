@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up Form Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="flowers" src="flowers image/hugo-kruip-ckyGhu5efWU-unsplash.jpg" alt="Different types of flowers">
+
+    <div class="main-container">
+        <div class="description">
+            <h1>This is not a real online service.</h1>
+            <h2>This is a flower shop, where you can get any flower you want shipped to your house in less than 24hs. 
+                We have all the flowers you need to bring beauty in to your house and your life.
+            </h2>
+        </div>
+        <div class="form-container">
+            <form action="">
+                <fieldset>
+                    <div class="input-cell">
+                        <label for="first-name">First Name <a>*</a></label>
+                        <input type="text" id="first-name" name="first name" size="30" maxlength="60" required>
+                    </div>
+                    
+                    <div class="input-cell">
+                        <label for="second-name">Last Name</label>
+                        <input type="text" id="second-name" name="second name" size="30" maxlength="60">    
+                    </div>
+                </fieldset>
+                    
+                <fieldset>
+                    <div class="input-cell">
+                        <label for="email">Email <a>*</a></label>
+                        <input type="email" id="email" name="email" size="30" maxlength="80" required>
+                    </div>
+                    
+                    <div class="input-cell">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone number">
+                    </div>
+                </fieldset>
+                    
+                <fieldset>
+                    <div class="input-cell">
+                        <label for="password">Password <a>*</a></label>
+                        <input type="password" id="password" name="password" size="30" minlength="10" maxlength="40" required>
+                    </div>
+                    
+                    <div class="input-cell">
+                        <label for="confirm-password">Confirm Password <a>*</a></label>
+                        <input type="password" id="confirm-password" name="confirm password" size="30" minlength="10" maxlength="40" required>
+                    </div>
+                </fieldset>
+
+                <button class="create-account-btn">Create Account</button>
+                
+            </form>
+        </div>
+        <p class="log-in">Already have an account <a href="#">Log in</a></p>
+    </div>
+</body>
+</html>
